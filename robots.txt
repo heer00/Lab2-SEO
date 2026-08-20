@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Disallow: /admin/
+Disallow: /test/
+
+Sitemap: https://heer00.github.io/Lab2-SEO/sitemap.xml

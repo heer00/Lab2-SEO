@@ -8,6 +8,57 @@
 
 <meta name="description" content="Pageturner Books offers curated fiction, non-fiction, comedy, drama, action, horror, and science-fiction books.">
 
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BookStore",
+  "name": "Pageturner Books",
+  "description": "Curated fiction, non-fiction, and everything in between.",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Book Categories",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Sci-Fi Books"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Comedy Books"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Drama Books"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Action Books"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Horror Books"
+        }
+      }
+    ]
+  }
+}
+</script>
+
 <style>
   * {
     margin: 0;
@@ -374,12 +425,13 @@
 
     <div class="video-container">
 
-    <iframe src="https://www.youtube-nocookie.com/embed/jAIiIomlQlY" 
-      title="Pageturner Books Collection Video" 
-      loading="lazy"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-      allowfullscreen>
-    </iframe>
+      <iframe
+        src="https://www.youtube-nocookie.com/embed/jAIiIomlQlY"
+        title="Pageturner Books Collection Video"
+        loading="lazy"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
 
     </div>
 
